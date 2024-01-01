@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Capstone Project</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' https://unpkg.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' http://localhost:8080;"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <h1 class="flashing-text">PC Game Handheld Recommendations</h1>
+
+    <div class="container">
+      <div class="column">
+        <button id="lcdscreenButton">LCD Screen</button>
+        <button id="oledscreenButton">OLED Screen</button>
+        <button id="bigmemoryButton">Large Memory</button>
+        <button id="lowmemoryButton">Small Memory</button>
+      </div>
+      <div class="column">
+        <button id="largescreenButton">Large screen</button>
+        <button id="smallscreenButton">Small screen</button>
+        <button id="longbatteryButton">Long battery life</button>
+        <button id="shortbatteryButton">Short battery life</button>
+      </div>
+      
+    <div>
+      <input id="addItemInput" type="text" placeholder="Enter new item">
+      <button id="addItemButton">Add Item</button>
+
+    </div>
+
+    <div>
+      <input id="deleteItemInput" type="text" placeholder="Enter item to delete">
+      <button id="deleteItemButton">Delete Item</button>
+    </div>
+    
+    <div><label for="arraySelect">Select Specification:</label>
+      <select id="arraySelect">
+        <option value="lcdscreen">LCD Screen</option>
+        <option value="oledscreen">OLED Screen</option>
+        <option value="bigmemory">Large Memory</option>
+        <option value="lowmemory">Small Memory</option>   
+        <option value="largescreen">Large Screen</option>
+        <option value="smallscreen">Small Screen</option>
+        <option value="longbattery">Long Battery Life</option>
+        <option value="shortbattery">Short Battery Life</option>
+      </select>
+      </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js" defer></script>
+  </body>
+</html>
