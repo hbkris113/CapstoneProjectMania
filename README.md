@@ -1,4 +1,4 @@
-![Screenshot 2024-01-01 144031](https://github.com/hbkris113/CapstoneProjectMania/assets/81546826/bd0cd77a-d3db-427f-94fc-bf33038b7a48)
+https://github.com/hbkris113/CapstoneProjectMania/assets/81546826/6bbcf20a-29ed-452a-9cd5-d751afb3926a
 
 The HTML structure (index.html) includes a set of buttons split into two columns that include labels related to PC handheld specs. The buttons are labeled with PC handheld device specs. 
 
